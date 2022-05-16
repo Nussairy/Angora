@@ -1,0 +1,165 @@
+#red-color{
+    color: #f15454;
+}
+#grey-color{
+    color: #B0B0B0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+#gears{
+    position: fixed;
+    top: 50%;
+    left: 10px;
+    background-color: #1f2528;
+}
+.fixed-gears{
+    position: fixed;
+    top: 25%;
+    left: 0;
+    background-color: #1f2528;
+    box-sizing: border-box;
+    padding: 10px;
+    z-index: 999;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+.carousel-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 80px;
+}
+.header{
+    position: relative;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+.header h2{
+    opacity: 0.1;
+    font-size: 60px;
+}
+.para{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+.progress{
+    height: 5px;
+}
+.center{
+    width: 90%;
+    margin: auto;
+}
+.layer{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(242, 84, 84, 0.7);
+    transform: translateY(-100%);
+    transition: 0.5s all;
+}
+.item:hover .layer{
+    transform: translateY(0);
+}
+.item:hover img{
+    transform: scale(1.1);
+}
+#button-color{
+    background-color: #f25454;
+    color: white;
+    width: 130px;
+    height: 50px;
+    border-radius: 3px;
+    border-color: transparent;
+}
+#team, #about, #services, #client, #contact, #footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#services, #contact{
+    background-color: #fafafa;
+}
+.header-color:hover h5{
+    color: #f25454;
+}
+.header-color:hover h3{
+    color: #f25454;
+}
+.header-color:hover h4{
+    color: #f25454;
+}
+.header-color{
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+.services-icon{
+    color: #f15454;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+.line{
+    width: 15px;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+}
+.contact-button{
+    background-color: #f25454;
+    height: 50px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+.contact-button i{
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+.footer{
+    background-image: url(img/images/dotted-map.png);
+    background-size: 100% 100%;
+    background-color: #222222;
+}
+.link-color a , .footer-content ul{
+    color: #B0B0B0;
+}
+.link-color li:hover a{
+    color: #f25454;
+}
+.list-buttons button{
+    background-color: transparent;
+    border-color: #B0B0B0;
+    color: #B0B0B0;
+    border-radius: 5px;
+}
+.list-buttons:hover button{
+    color: #f25454;
+}
+.footer-layer{
+    background-color: #1A1A1A;
+}
+.footer-angora a{
+    color: white;
+}
+.footer-angora:hover a{
+    color: #f25454;
+}
+.up-button button{
+    background-color: #f25454;
+    opacity: 0.5;
+    width: 50px;
+    height: 50px;
+    transform: translate(-5%, -250%);
+}
+.up-button:hover button{
+    opacity: 1;
+}
